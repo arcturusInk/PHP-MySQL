@@ -1,0 +1,75 @@
+/*Swati Barua*/
+/*creating tables*/
+
+/*insertion*/
+
+insert into person (`pid`,`passwd`,`fname`, `lname`) values ('Ann',md5('Ann'), 'Ann', 'A.');insert into person (`pid`,`passwd`,`fname`, `lname`) values ('Bob',md5('Bob'), 'Bob', 'B.'); insert into person (`pid`,`passwd`,`fname`, `lname`) values ('Pedro',md5('Pedro'), 'Pedro', 'P.');insert into person (`pid`,`passwd`,`fname`, `lname`) values ('Bailon',md5('Bailon'), 'Bailon', 'B.');
+
+insert into club (`clubid`,`cname`,`descr`) values (1, 'frisbee club', 'We love to play with frisbee in parks!'); insert into club (`clubid`,`cname`,`descr`) values (2, 'theater club', 'We love putting on plays!');
+
+insert into student (`pid`,`gender`,`class`) values ('Pedro', 'Male', 'Senior');
+insert into student (`pid`,`gender`,`class`) values ('Bailon', 'Male', 'Senior');
+
+insert into member_of (`pid`,`clubid`) values ('Pedro',1);
+insert into member_of(`pid`,`clubid`) values ('Pedro',2);
+insert into member_of(`pid`,`clubid`) values ('Bailon',1);
+
+insert into advisor_of (`clubid`,`pid`) values (1, 'Ann');
+insert into advisor_of (`clubid`,`pid`) values (2, 'Bob');
+
+insert into keywords (`topic`) values ('frisbee weight');
+insert into keywords (`topic`) values ('air speed');
+insert into keywords (`topic`) values ('dresses');
+insert into keywords (`topic`) values ('plays');
+
+insert into club_topics (`clubid`, `topic`) values (1, 'frisbee weight');
+insert into club_topics (`clubid`, `topic`) values (1, 'air speed');
+insert into club_topics (`clubid`, `topic`) values (2, 'dresses');
+insert into club_topics (`clubid`, `topic`) values (2, 'plays');
+
+insert into interested_in (`pid`,`topic`) values ('Pedro', 'frisbee weight');
+insert into interested_in (`pid`,`topic`) values ('Pedro', 'plays');
+insert into interested_in (`pid`,`topic`) values ('Pedro', 'air speed');
+insert into interested_in (`pid`,`topic`) values ('Bailon', 'dresses');
+insert into interested_in (`pid`,`topic`) values ('Bailon', 'plays');
+
+insert into event (`eid`,`ename`,`description`,`edatetime`,`location`,`is_public_e`,`sponsored_by`) values (12, 'Frisbee For All!', 'Come join our frisbee club!','2015-03-11 12:12:12', 'campus',true, 1);
+insert into event (`eid`,`ename`,`description`,`edatetime`,`location`,`is_public_e`,`sponsored_by`) values (13, 'FRISBEES', 'Come play frisbees with us!', '2015-12-12 01:13:13', 'NYU', true, 1);
+insert into event (`eid`,`ename`,`description`,`edatetime`,`location`,`is_public_e`,`sponsored_by`) values (14, 'Come Play With Us!', 'Recruiting members for plays on stage.', '2015-03-12 04:34:34', 'Poly', true, 2);
+insert into event (`eid`,`ename`,`description`,`edatetime`,`location`,`is_public_e`,`sponsored_by`) values (15, 'Dresses on sale', 'Selling used theater dresses for charity.', '2015-11-11 02:02:02', 'Campus', true, 2);
+insert into event (`eid`,`ename`,`description`,`edatetime`,`location`,`is_public_e`,`sponsored_by`) values (16, 'After Show Party', 'Gathering after show.', '2015-03-14 12:12:12', 'NYU-Club', false, 2);
+insert into event (`eid`,`ename`,`description`,`edatetime`,`location`,`is_public_e`,`sponsored_by`) values (17, 'Rehearsal', 'First rehearsal of the year', '2015-11-23 07:07:07', 'Campus', false, 2);
+
+insert into sign_up (`pid`,`eid`) values ('Pedro', 12);
+insert into sign_up (`pid`,`eid`) values ('Pedro',14);
+insert into sign_up (`pid`,`eid`) values ('Pedro',16);
+insert into sign_up (`pid`,`eid`) values ('Bailon',13);
+insert into sign_up (`pid`,`eid`) values ('Bailon',15);
+
+insert into comment (`comment_id`,`ctext`,`is_public_c`,`commenter`) values (654, 'I cannot wait!', true, 'Pedro');
+insert into comment (`comment_id`,`ctext`,`is_public_c`,`commenter`) values (653, 'I will come help out!', true, 'Pedro');
+insert into comment (`comment_id`,`ctext`,`is_public_c`,`commenter`) values (655, 'This looks awesome!', false, 'Pedro');
+insert into comment (`comment_id`,`ctext`,`is_public_c`,`commenter`) values (652, 'Looks nice!' , true, 'Bailon');
+insert into comment (`comment_id`,`ctext`,`is_public_c`,`commenter`) values (650, 'Everything looks amazing!', true, 'Bailon');
+
+insert into event_comment (`comment_id`,`eid`) values (654, 12);
+insert into event_comment(`comment_id`,`eid`) values (653, 14);
+insert into event_comment(`comment_id`,`eid`) values (655, 16);
+insert into event_comment(`comment_id`,`eid`) values (652, 13);
+insert into event_comment(`comment_id`,`eid`) values (650, 15);
+
+insert into role_in (`pid`,`clubid`,`role`) values ('Pedro', 2, 'admin');
+insert into role_in (`pid`,`clubid`,`role`) values ('Pedro', 1, 'member');
+insert into role_in (`pid`,`clubid`,`role`) values ('Bailon', 1, 'admin');
+
+/*Pedro is a member of both clubs, he has signed up for three events Frisbee for all (eid:12), Come play with us (eid:14), and After show party(eid:16). He has posted commentid: 654 (I cannot wait!) about event 12, commentid:653 (I will come help out!) about event 14, and commentid:655 (This looks awesome!) about 16. He is interested in topics such as frisbee weight, air speed and plays.*/
+
+/*QUERIES*/
+
+/*A*/select `pid`, `password` from person where `pid`='Pedro' and `password`=md5('Pedro');
+/*B*/select `eid`, `ename`, `edatetime` from event natural join sign_up where pid='Pedro' and date(`edatetime`) between CURDATE() and DATE_ADD(CURDATE(),INTERVAL 7 DAY);
+/*C*/select `clubid` from club_member where `pid`='Pedro' ;
+/*D*/select a.eid, a.ename, count(pid) as num_of_people_signed_up from event as a, sign_up as b where a.clubid=2 and a.eid=b.eid group by a.eid, a.ename; 
+/*E*/
+/*I AM USING EID = 13 INSTEAD OF THE SPECIFIED EID =3 TO DO THE QUERY*/ 
+select a.public_or_not_e as is_the_event_public, a.clubid as club_sponsoring_event_13, b.clubid as member_of_club from event as a join club_member as b where (a.eid=13 and a.`public_or_not_e`=1 and a.clubid=b.clubid and a.eid=13 and b.pid='Pedro');  

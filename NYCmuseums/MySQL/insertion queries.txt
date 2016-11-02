@@ -1,0 +1,312 @@
+--
+-- Dumping data for table `POI`
+-- 
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`,  `description`) VALUES
+('2 Lincoln Square Columbus Ave btwn 65 & 66 St', 'American Folk Art Museum', '40.773154', '-73.981496', 'The museum presents  both traditional and contemporary folk arts, from the U.S. and abroad.');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`,  `description`) VALUES
+('Central Park West at 79th Street 10024', 'American Museum of Natural History', '40.781308', '-73.974063', 'The museum displays the earth\'s evolution, from the birth of the planet through the present day');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('Broadway at 155th Street 10032 ', 'American Numismatic Society', '40.723517', '-74.006454', 'The museum\'s mission is to advance the study of coins, medals and related objects.');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('725 Park Ave. & 70th St. 10021', 'Asia Society', '40.769832', '-73.964319', 'The Museum is dedicated to understanding communication between Americans and Asians');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('103 Charlton St. btwn Hudson & Greenwich St. 10014', 'Children\'s Museum of The Arts', '40.727616', '-74.008154', 'The Museum exists to develop children\'s (under 10) potential through visual and performing arts');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('Two E 91st St.(on 5th Ave)', 'Cooper-Hewitt, , National Design Museum, Smithsonian Institution ', '40.784371', '-73.957916', 'The Museum displays a virtual cornucopia of decorative and design arts');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('580 Madison Ave btwn 56th & 57th St. 10022', 'The Dahesh Museum', '40.725121', '-74.004878', 'The Museum is dedicated to collecting and exhibiting 19th and early 20th-century European academic art');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('548 & 545 W 22nd St. 10010', 'Dia Center for the Arts', '40.747830', '-74.006069', 'Dia, meaning "through" in Greek, was chosen to suggest our role in realizing extraordinary projects');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('1230 Fifth Ave at 104th St NY', 'El Museo del Barrio', '40.793118', '-73.951396', 'Founded 30 yrs ago, the museum is dedicated to Puerto Rican, Caribbean and Latin American art');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('1E. 70th St. btw Madison & 5th Ave', 'The Frick Collection', '40.771229', '-73.967223', 'A former mansion, the museum is a grand setting for European painting and decorative arts');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('100 Washington Square E 10003', 'Grey Art Gallery', '40.730277', '-73.995869', 'Grey Art Gallery is NYU\'s fine arts museum, offering 4-6 world class exhibitions per year');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('1071 Fifth Avenue', 'Solomon R. Guggenheim Museum', '40.782980', '-73.958971', 'The museum displays works from artists in 19th and 20th century including: Picasso, Van Gogh');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('613 W.155th St. At Broadway 10032', 'The Hispanic Society of America', '40.833456', '-73.946880', 'The free museum is a reference library for the study of arts and cultures of Spain and Portugal');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('1114 Ave of Americas (43rd St.) 10036', 'International Center of Photography', '40.754792', '-73.983030', 'ICP offers exhibitions, publications, workshops, seminars and degree programs for visitors');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('Pier 86;W.46thSt&12th Ave(on Hudson)10036', 'Intrepid Sea-Air-Space Museum', '40.764527', '-73.999608', 'The Intrepid is a 40,000 ton, 900 foot-long aircraft carrier which served the Navy in 1943-1974');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('1109 5th Ave at 92nd St 10128', 'Jewish Museum', '40.785414', '-73.957181', 'Museum displays many facets of Jewish identity as it emerges through 4 millenia');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('103 Orchard Street 10002', 'Lower East Side Tenement Museum', '40.718804', '-73.990070', 'Visitors to the Museum tour the cramped living spaces and learn about the lives of past resident');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('Times Square 42 St. btwn 7th&8th Ave', 'Madame Tussaud\'s', '40.756481', '-73.988885', 'Get close and personal with celebrities\'s statues at the 85,000 square-foot, five-story museum');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('29E 36th Street 10016', 'The Morgan Library', '40.749234', '-73.981397', 'The library focuses on history of Western civilization: Middle Ages-20th century');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('421E 61st St.(btwn 1st and York)', 'Mount Vernon Hotel Museum', '40.760508', '-73.959688', 'The Museum displays American furniture, costumes, quilts and textiles, and works on paper');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('48 Wall St. 10005', 'Museum of American Finance', '40.706412', '-74.009315', 'The museum displays antique stocks, bonds, currency and equipment used on Wall St.');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('215 Centre St, 10013 2nd floor', 'Museum of Chinese in the Americas', '40.719478', '-73.999178', 'The Museum preserves the culture of Chinese and their descendant in Western Hemisphere');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('Edmond Safra Plaza 36 Battery Place 10280', 'Museum of Jewish Heritage', '40.706008', '-74.018600', 'Museum\'s mission is to educate people about Jewish experience before, during, and after Holocaust');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('11W 53 St btw. 5 & 6 Ave 10019', 'Museum of Modern Art', '40.761449', '-73.977643', 'The Museum collection has 100,000+ architectural models, drawings, and design objects');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('One Bowling Green 1000', 'National Museum of the American Indian', '40.704027', '-74.013723', 'The museum works with Native Americans to protect their cultures via artistic expression');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('222E 6 St btwn 2nd & 3rd Ave', 'Ukrainian Museum', '40.727629', '-73.989763', 'The Museum focuses on "past and present Ukrainian experience" through exhibition and activity');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('278 Spring St., NY', 'New York City Fire Museum', '40.725432', '-74.006763', 'The museum tells the heroic stories of the men and women who serve the department');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('100 Old Slip, NY 10005', 'NYC Police Museum', '40.706219', '-74.009972', 'The Museum preserves the history of NYPD, the world\'s largest police department');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('5th Ave & 42nd St., NY', 'New York Public Library', '40.753182', '-73.982253', 'The library, home of the lions Patience and Fortitude, has frequent events and exhibits');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('233 Fifth Avenue, NY', 'Museum of Sex', '40.744014', '-73.987298', 'The museum addresses material from different cultures, time through film & photograph');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('39 Battery Pl., NY', 'The Skyscraper Museum', '40.705734', '-74.017761', 'The Museum is dedicated to study high-rise buildings of past, present, and future');
+
+INSERT INTO `POI` (`footnote`, `title`, `lat`, `lon`, `description`) VALUES
+('226 west 44th St. NY', 'Discovery Times Square', '40.757520', '-73.987191', 'DTS is NYC\'s large-scale exhibition center, presenting visitors with immersive experience');
+
+
+-- -------------------------------------------------------------
+
+--
+-- Dumping data for table `moreInfo`
+-- 
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('1', 'http://www.folkartmuseum.org/', '212. 595. 9533', 'Tuesday–Thursday: 11:30 am–7:00 pm. Friday: 12:00–7:30 pm. Saturday: 11:30 am–7:00 pm. Sunday: 12:00–6:00 pm. Monday: Closed.', 'FREE.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('2', 'http://www.amnh.org/', '212769-5200', 'Daily, 10am-5:45pm. The Rose Center remains open on Fri. until 8:45pm.
+Closed Thanksgiving and Christmas.', 'The admission price is suggested, so you may pay whatever admission you like:
+Suggested Donation $22. There are often additional charges for special shows.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('3', 'http://numismatics.org/', '(212) 234-3381', 'Tues - Fri 9am-4:30pm.', 'FREE.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('4', 'http://www.asiasociety.org/', '(212) 288-6400', 'Store Hours: Mon-Sun, 11am-6pm and Friday 11am-4:30pm. Cafe Hours: 
+Tues-Sun, 12am-3:30pm.', '$10 adults. $7 students with ID. Free to members and children under 16. Free on Fridays from 6-9pm.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('5', 'http://cmany.org/', '(212) 274-0986', 'M: 12-5PM
+Tu&W: WEE ONLY. Th-Fr: 12-6PM. Sa-Su: 10-5PM.', 'Ages 1 to 65:   $12. Pay as you wish on Thursdays from 4-6pm. Children under 12 months, and adults over 65 admitted free. Recommended Age Group
+0-16 years old.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('6', 'http://cooperhewitt.org/', '(212) 849-8386', 'Mon-Fri 10am-5pm. Sat 10am-6pm. Sun 11am-6pm.', 'Adults $15. Seniors and students $10. Children under 12 free.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('7', ' http://www.daheshmuseum.org/', '(212) 759-0606', 'Tues-Sat 11am - 6pm. Open until 9 pm on the first Thursday of each month.', '$9 Adults. $4 Students and seniors (62+) with ID. Free to members and children under 12. Free on First Thursdays, 6-9 pm. Closed Mondays and federal holidays.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('8', 'http://www.diacenter.org/', '(212) 989-5566', 'For April–October: Thursday–Monday 11 am–6 pm.', 'Suggested contribution $6. Students and Seniors $3. Children under 10 and members free.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('9', 'http://www.elmuseo.org/', '(212) 831-7272', 'Wed-Sun, 11am-6pm.', '$6 adults. $4 students and seniors. Members and children under 12, accompanied by an adult or guardian, admitted free.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('10', 'http://www.frick.org/', '(212) 628-4417', 'Tues-Sat 10am-6pm. Sun 11am-5pm.', 'General: $18. Seniors: $12. Students: $5. Children under ten are not admitted to the Collection, and those under sixteen must be accompanied by an adult.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('11', 'http://www.nyu.edu/greyart/', '(212) 998-6780', 'Tues,Thurs-Fri 11am-6pm. Wed 11am-8pm. Sat 11am-to 5pm. Sun-Mon Closed.', 'General $2.50. Free to NYU students, faculty, and staff.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('12', 'https://www.guggenheim.org/', '(212) 423-3500', 'Sun-Wed, 10:00am-5:45pm. Fri, 10:00am-5:45pm. Sat, 10:00am-7:45pm. Thurs, Closed.', 'Adults $25. Student/seniors $18. Children under 12 FREE. Members FREE.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('13', 'http://www.hispanicsociety.org/', '(212) 690-0743', 'Tues-Sat 10am-4:30pm. Sun 1pm-4pm.', 'FREE. Groups should call to make appointment.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('14', ' https://www.icp.org/', '(212) 857-0000', 'Closed Mondays.
+Tues-Wed/Fri-Sun 10am-6pm. Thurs 10am-9pm.', 'Adults 	$14. Seniors 	$12. Students 	$10. Members 	FREE. Children 14 and under 	FREE.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('15', 'https://www.intrepidmuseum.org/', '212-245-0072', 'April-Sept: Mon-Fri 10am-5pm, Sat-Sun 10am-6pm. Oct-March: Wed-Sun 10am-5pm.', 'Adult $22.00. Seniors (62+) $18.00. Veterans $17.00
+College Students (w/valid ID) $18.00. Youth (3-17) $17.00. Child under (3) Free. Retired Military FREE. Active Duty FREE. Museum Members FREE. Group rate available, call (212) 957-3701. Recommended Age 5 years and older');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('16', 'http://www.thejewishmuseum.org/', '(212) 423-3200', 'Closed for major jewish holidays. Visit their website for hours (which change seasonally).', 'Adults 	$15. Seniors, 65 and over 	$12. Students 	$7.50. Children, 18 and under 	FREE. Members 	FREE. Thursdays, 5 – 8 pm 	Pay-What-You-Wish. Saturdays 	FREE.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('17', 'https://www.tenement.org/', '212-431-0233', 'Hours for Visitor Center: Mon-Wed 11am-5:30pm. Thursday 11am-7pm. Fri 11am-5:30pm. Sat-Sun 11am-6pm.', 'Adults $20. Students & Seniors $15.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('18', 'http://www.nycwax.com/', '(888) 923-0334', 'Sun-Thurs 10am-6pm. Fri-Sat 10am-8pm.', 'Various packets and deals exist. Check website for recent information.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('19', 'http://www.themorgan.org/', '(212) 685-0610', 'Tue.-Thurs: 10:30am-5pm. Fri: 10:30am-9pm. Sat: 10am-6pm. Sun: 11am-6pm.', 'Adults $12. Children under 16 $8. Students/seniors $8. Children 12 and under free when accompanied by an adult. Admission is free on Fridays from 7pm-9pm. Admission to the McKim rooms is without charge during the following times: Tue 3pm-5pm; Fri 7pm-9pm; Sun 4pm-6pm.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('20', 'http://www.mvhm.org/', '(212) 838-6878', 'Monday: closed. Tues - Sun: 11am-4pm.', '$8.00 adults. $7.00 seniors and students. Free for children under twelve and museum friends.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('21', 'http://www.moaf.org/index', '(212) 908-4110', 'Tuesday-Saturday 10am-4pm. Closed on Holidays', 'Adults: $8. Students/seniors: $5. Members/Children under 6: FREE.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('22', 'http://www.mocanyc.org/', '(212) 619-4785', 'Tues-Sat noon-5pm. Closed major holidays.', '$3.00 adults. $1.00 seniors and students. Free for children under twelve and members.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('23', 'http://www.mjhnyc.org/', '(646) 437-4202', 'Please see website for details (which change seasonally).', '$12 Adults. $10 Seniors 65 and up. $7 Students. Free for children ages 12 and under. FREE for Members. FREE admission every Wednesday from 4 p.m. to 8 p.m. Note: Museum admission applies to exhibitions only. There may be a separate ticket fee for programs.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('24', 'http://www.moma.org', '(212) 708-9400', 'Sat-Thurs 10:30am-5:30pm. Fri 10:30am-8:00pm (free 4:00–8:00 p.m.). Sat   10:30 a.m.–5:30 p.m. The Museum is closed on Thanksgiving Day and Christmas Day.', 'Adults $25.00. Students/seniors $18.00/$14.00. Pay as you wish on Fridays from 4:30-8:00. Free to children under 16 accompanied by an adult. Free admission for full time students with current id from the CUNY, SUNY, Parsons, Pratt, SVA, Columbia University and The New School.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('25', 'http://www.nmai.si.edu/', '(212) 514-3705', '10am to 5pm daily, Thursdays to 8pm.', 'FREE.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('26', 'http://www.ukrainianmuseum.org/', '(212) 228-0110', 'Wed-Sun 1pm-5pm.', '$8 adults. $6 seniors/students. Children under 12 are free.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('27', 'http://www.nycfiremuseum.org/', '(212) 691-1303', 'Tues - Sun: 10am - 4 pm.', '$5 Adults. $2 seniors/students. $1 children under 12.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('28', 'http://www.nycpm.org', '(212) 480-9757', 'Mon-Sat: 10am-5pm.', 'Adults $7. Students & Seniors $5. Children under 2 FREE. New York City Police Museum Members and Reciprocal Members: FREE. To make reservations for group tours please call: 212-480-3100 x109. Questions? Send email to: webmaster [at] nycpm.org.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('29', 'http://www.nypl.org/', '(212) 930-0830', 'Mon 10am-6pm.
+Tues-Wed 11am-7:30pm. Thurs-Sat 10am-6pm. Closed on Sunday.', 'FREE. There are free tours of the library Monday to Saturday at 11am and 2pm.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('30', 'http://www.museumofsex.com/', '212.689.6337', 'Sunday – Thursday: 10am – 9pm. Friday & Saturday: 11am – 11pm.', 'Adults (18+): $18.50 + tax. Senior/Student/Military (with valid ID): $16.50 + tax (may not be combined with other discounts). Additional entrance fee may apply for special exhibition.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('31', 'http://www.skyscraper.org/', '212.968.1961', 'Museum hours are 12-6 PM, Wednesday-Sunday.', 'General admission is $5, $2.50 for students and seniors.');
+
+INSERT INTO `moreInfo` (`infoID`, `website`, `phone`, `hours`, `admissions`) VALUES
+('32', 'http://www.discoverytsx.com/', 'Please visit their website for recent up-to-date information', 'Please visit their website for recent up-to-date information', 'Please visit their website for recent up-to-date information');
+-- -------------------------------------------------------------
+
+--
+-- Dumping data for table `POIAction`
+--
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('2', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID2.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('12', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID12.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('1', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID11.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('3', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID3.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('4', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID4.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('5', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID5.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('6', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID6.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('7', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID7.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('8', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID8.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('9', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID9.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('10', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID10.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('11', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID11.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('13', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID13.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('14', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID14.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('15', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID15.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('16', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID16.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('17', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID17.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('18', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID18.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('19', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID19.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('20', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID20.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('21', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID21.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('22', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID22.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('23', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID23.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('24', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID24.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('25', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID25.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('26', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID26.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('27', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID27.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('28', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID28.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('29', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID29.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('30', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID30.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('31', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID31.php');
+
+INSERT INTO `POIAction` (`poiID`, `uri`) VALUES
+('32', 'http://79.170.40.175/nycmuseums.com/urls/uri-ID32.php');
+

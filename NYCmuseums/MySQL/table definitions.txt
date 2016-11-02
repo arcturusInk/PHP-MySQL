@@ -1,0 +1,68 @@
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- --------------------------------------------------------
+--
+-- Table structure for table `POI`
+--
+
+CREATE TABLE IF NOT EXISTS `POI` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `footnote` varchar(150) NOT NULL,
+  `title` varchar(150) NOT NULL,
+  `lat` decimal(13,10) NOT NULL,
+  `lon` decimal(13,10) NOT NULL,
+  `imageURL` varchar(255) NOT NULL DEFAULT 'http://79.170.40.175/nycmuseums.com/imageURL.png',
+  `description` varchar(150) NOT NULL,
+  `biwStyle` enum('classic','collapsed') DEFAULT 'classic',
+  `doNotIndex` tinyint(1) DEFAULT '0',
+  `showSmallBiw` tinyint(1) DEFAULT '1',
+  `showBiwOnClick` tinyint(1) DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `POIAction`
+--
+
+CREATE TABLE IF NOT EXISTS `POIAction` (
+  `poiID` int NOT NULL PRIMARY KEY , -- mandatory
+  `label` varchar(30) NOT NULL DEFAULT 'More Information', -- mandatory
+  `uri` varchar(255) NOT NULL, -- mandatory
+  `contentType` varchar(255) DEFAULT 'text/html', -- mandatory
+  `method` enum('GET','POST') DEFAULT 'GET', -- optional
+  `activityType` int(2) DEFAULT '1',  -- optional
+  `closeBiw` tinyint(1) DEFAULT '0' -- optional
+)ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;
+
+--
+-- Constraints for table `POIAction`
+--
+ALTER TABLE `POIAction`
+  ADD CONSTRAINT `POIAction_IBFK_2` FOREIGN KEY (`poiID`) REFERENCES `POI` (`id`);
+
+
+-- --------------------------------------------------------
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `moreInfo`
+--
+
+CREATE TABLE IF NOT EXISTS `moreInfo` (
+  `infoID` int NOT NULL PRIMARY KEY,
+  `website` varchar(255) DEFAULT NULL,
+  `phone` varchar(16) DEFAULT NULL,
+  `hours` varchar(255) DEFAULT NULL,
+  `admissions` varchar(255) DEFAULT NULL,
+  FOREIGN KEY (infoID) REFERENCES POI (id)
+);
+
